@@ -87,7 +87,7 @@ func Usage() {
 	_, _ = fmt.Fprintf(os.Stderr, "\tgo-syncmap [flags] -type T,S [directory]\n")
 	_, _ = fmt.Fprintf(os.Stderr, "\tgo-syncmap [flags] -type T<K,V>,S<K,V> [directory]\n")
 	_, _ = fmt.Fprintf(os.Stderr, "For more information, see:\n")
-	_, _ = fmt.Fprintf(os.Stderr, "\thttp://godoc.org/github.com/searKing/go-syncmap\n")
+	_, _ = fmt.Fprintf(os.Stderr, "\thttps://godoc.org/github.com/searKing/golang/tools/cmd/go-syncmap\n")
 	_, _ = fmt.Fprintf(os.Stderr, "Flags:\n")
 	flag.PrintDefaults()
 }
